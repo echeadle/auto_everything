@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      args:
+        - DEV=true
+    volumes:
+      - ./scripts:/scripts
+
